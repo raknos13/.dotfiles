@@ -1,0 +1,136 @@
+* {
+  font-family: 'JetBrains Mono';
+  font-size: 15px;
+  font-weight: bold;
+  min-height: 0;
+
+  padding: 0;
+  margin: 0;
+}
+
+@define-color bg_color #1d1f21;
+@define-color fg_color #c5c8c6;
+
+window#waybar {
+  background-color: @bg_color;
+  color: @fg_color;
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+/* uncomment the code below to enable waybar gaps. */
+window > box {
+  /* margin: 5px 5px 0px 5px; */
+  /* background: @bg_color; */ 
+  /* color: @fg_color; */
+  /* /1* border: 2px solid #50565c; *1/ */
+  /* border-radius: 4px; */
+  /* transition-property: background-color; */
+  /* transition-duration: .5s; */
+} 
+
+window#waybar.termite {
+  background-color: #3F3F3F;
+}
+window#waybar.chromium {
+  background-color: #000000;
+  border: none;
+}
+
+button { /* Use box-shadow instead of border so the text isn't offset */
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+button:hover {
+  background: linear-gradient(#ffffff, #daeeee);
+  border-radius: 4px;
+  color: @bg_color;
+}
+
+#workspaces button {
+  padding: 0 5px;
+  background-color: transparent;
+  border-radius: 0px;
+  color: @fg_color;
+}
+
+#workspaces button.focused {
+  background: linear-gradient(#ffffff, #daeeee);
+  border-radius: 0px;
+  color: @bg_color;
+}
+
+#workspaces button.urgent {
+  /* background-color: #f0c611; */
+  background: linear-gradient(#f0c611, #ffa200);
+  border-radius: 0;
+  color: @bg_color;
+}
+
+#clock,
+#battery,
+#pulseaudio,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#wireplumber,
+#wireplumber,
+#custom-media,
+#tray,
+#language {
+  padding: 5px 5px;
+  color: @fg_color;
+}
+
+#window {
+  background-color: @transparent;
+}
+
+#workspaces {
+  border-radius: 0px;
+  margin: 0 10;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+  margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+  margin-right: 0;
+}
+
+#battery.charging, #battery.plugged {
+  background-color: #26A65B;
+}
+
+@keyframes blink {
+  to {
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
+
+#battery.critical:not(.charging) {
+  background-color: #f53c3c;
+  color: #ffffff;
+
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+tooltip {
+   border-radius: 4px;
+   border: 2px solid @fg_color;
+
+   background-color: @bg_color;
+}
