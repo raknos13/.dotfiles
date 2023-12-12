@@ -58,9 +58,6 @@
         "format-alt": "[{time} {icon} ]",
         "format-icons": ["", "", "", "", ""]
     },
-    "battery#bat2": {
-        "bat": "BAT2"
-    },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "[Connected 󰤨 ]",

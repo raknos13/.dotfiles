@@ -93,7 +93,7 @@ button:hover {
 
 #workspaces {
   border-radius: 0px;
-  margin: 0 10;
+  margin: 0 10px;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
