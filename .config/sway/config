@@ -15,7 +15,7 @@ bindsym $mod+Return exec $term
 bindsym $mod+d exec $menu
 bindsym $mod+Shift+q kill
 bindsym $mod+Shift+r reload
-bindsym $mod+Shift+e exec swaynag -t warning -m 'Exit Sway?' -B 'Yes, exit sway' 'swaymsg exit' --font="CaskaydiaCove NF"
+bindsym $mod+Shift+e exec swaynag -t warning -m 'Exit Sway?' -B 'Yes, exit sway' 'swaymsg exit' --font="JetBrains Mono"
 
 floating_modifier $mod normal
 
@@ -111,7 +111,7 @@ exec pipewire-pulse
 exec wireplumber
 exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 
-default_border pixel 1
+default_border pixel 2
 default_floating_border pixel 1
 
 # border colors
@@ -123,7 +123,7 @@ client.placeholder      #b5bd68 #b5bd68 #b5bd68 #b5bd68   #b5bd68
 client.background       #ffffff
 
 # window gaps
- # gaps inner 4
+ # gaps inner 2
  # gaps outer 4
 
 # swayfx config
@@ -138,6 +138,7 @@ shadows enable
 # includes
 include /etc/sway/config.d/*
 
+# Touchpad settings
 input "type:touchpad" {
     left_handed enabled
     tap enabled
@@ -147,9 +148,30 @@ input "type:touchpad" {
     pointer_accel 0.5 # set mouse sensitivity (between -1 and 1)
 }
 
-bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
-bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
+# Make capslock an additional escape. Shift+capslock is normal capslock toggle. 
+input "type:keyboard" {
+    xkb_options caps:escape_shifted_capslock 
+}
+
+# Swipe gestures
+bindgesture swipe:right workspace prev
+bindgesture swipe:left workspace next
 
 # pop-up windows
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="About"] floating enable
+
+# Fn keys
+bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
+bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
+
+bindsym --locked XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5% 
+bindsym --locked XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5% 
+bindsym --locked XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle 
+bindsym --locked XF86AudioPlay exec playerctl play-pause
+bindsym --locked XF86AudioNext exec playerctl next
+bindsym --locked XF86AudioPrev exec playerctl previous
+bindsym XF86Search exec $menu
+
+bindsym $mod+Shift+x exec $HOME/.config/swaylock/lock.sh 50
+exec_always bash $HOME/.config/swaylock/idle.sh
