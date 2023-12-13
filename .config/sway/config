@@ -112,10 +112,10 @@ exec wireplumber
 exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 
 default_border pixel 2
-default_floating_border pixel 1
+default_floating_border pixel 2
 
 # border colors
-client.focused          #e6a317 #e6a317 #c5c8c6 #e6a317   #e6a317
+client.focused          #d5c4a1 #d5c4a1 #c5c8c6 #d5c4a1   #d5c4a1
 client.focused_inactive #c5c8c6 #c5c8c6 #c5c8c6 #c5c8c6   #c5c8c6
 client.unfocused        #1d1f21 #c5c8c6 #1d1f21 #1d1f21   #1d1f21
 client.urgent           #f0c674 #f0c674 #f0c674 #f0c674   #f0c674

@@ -1,15 +1,19 @@
 {
-    "height": 0,
+    "height": 25,
     "layer": "bottom",
 
-    "modules-left": ["sway/workspaces", "sway/mode", "sway/window"],
-    "modules-right": ["pulseaudio",
+    "modules-left": ["sway/workspaces", 
+                    "custom/scratchpad-indicator", "sway/mode"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["idle_inhibitor", "pulseaudio",
                       "network", "backlight",
-                      "battery", "battery#bat2", "clock", "tray"],
+                      "battery", "clock", "tray"],
 
     "sway/window": {
-      "format": "[{title}]",
-      "max-length": 600,
+      "format": "{title}",
+      "max-length": 1000,
+      /* "icon": true, */
+      "icon-size": 20,
       "on-click-middle": "swaymsg kill", 
       "enable-bar-scroll": true,
     },
@@ -20,8 +24,8 @@
         "format": "[{}]"
     },
     "tray": {
-        "icon-size": 30,
-        "spacing": 14
+        "icon-size": 40,
+        "spacing": 10
     },
     "clock": {
         "format": "[{:%OI:%M} 󰥔 ]",
@@ -60,8 +64,8 @@
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "[Connected 󰤨 ]",
-        "format-ethernet": "[Connected 󰤨 ]",
+        "format-wifi": "[{essid} 󰤨 ]",
+        "format-ethernet": "[{essid} 󰤨 ]",
         "tooltip-format": "[Connected 󰤨 ]",
         "format-linked": "[Connected 󰤨 ]",
         "format-disconnected": "[Disconnected 󰤭 ]",
@@ -81,10 +85,26 @@
             "headset": "",
             "phone": "",
             "portable": "",
-            "car": "",
+            "car": " ",
             "default": ["", "", ""]
         },
-        "on-click": "pavucontrol"
+        "on-click": "pavucontrol",
+        "on-click-right": "pactl set-source-mute @DEFAULT_SOURCE@ toggle"
     },
+    "custom/scratchpad-indicator": {
+        "interval": 3,
+        "return-type": "json",
+        "exec": "swaymsg -t get_tree | jq --unbuffered --compact-output '( select(.name == \"root\") | .nodes[] | select(.name == \"__i3\") | .nodes[] | select(.name == \"__i3_scratch\") | .focus) as $scratch_ids | [..  | (.nodes? + .floating_nodes?) // empty | .[] | select(.id |IN($scratch_ids[]))] as $scratch_nodes | { text: \"\\($scratch_nodes | length)\", tooltip: $scratch_nodes | map(\"\\(.app_id // .window_properties.class) (\\(.id)): \\(.name)\") | join(\"\\n\") }'",
+        "format": "{}   ",
+        "on-click": "exec swaymsg 'scratchpad show'",
+        "on-click-right": "exec swaymsg 'move scratchpad'"
+    },
+    "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": " ",
+      "deactivated": " "
+    }
+  },
 }
  

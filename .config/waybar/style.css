@@ -1,6 +1,6 @@
 * {
   font-family: 'JetBrains Mono';
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
   min-height: 0;
 
@@ -8,12 +8,19 @@
   margin: 0;
 }
 
+@define-color bgc #282828; /*background color*/
+@define-color flc #3c3836; /*first layer color*/
+@define-color fgc #ebdbb2; /*foreground color*/
+@define-color wfc #a89984; /*workspaces font color*/
+@define-color wdc #d5c4a1; /*workspaces default color*/
+@define-color wuc #fe8019; /*workspaces urgent color*/
+
 @define-color bg_color #1d1f21;
 @define-color fg_color #c5c8c6;
 
 window#waybar {
-  background-color: @bg_color;
-  color: @fg_color;
+  background-color: @bgc;
+  color: @fgc;
 }
 
 window#waybar.hidden {
@@ -44,29 +51,29 @@ button { /* Use box-shadow instead of border so the text isn't offset */
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
-  background: linear-gradient(#ffffff, #daeeee);
+  background: @wdc; 
   border-radius: 4px;
-  color: @bg_color;
+  color: @fgc;
 }
 
 #workspaces button {
   padding: 0 5px;
   background-color: transparent;
   border-radius: 0px;
-  color: @fg_color;
+  color: @wfc;
 }
 
 #workspaces button.focused {
-  background: linear-gradient(#ffffff, #daeeee);
+  background: @wdc; 
   border-radius: 0px;
-  color: @bg_color;
+  color: @bgc;
 }
 
 #workspaces button.urgent {
-  /* background-color: #f0c611; */
-  background: linear-gradient(#f0c611, #ffa200);
+  background-color: @wuc;
+  /* background: linear-gradient(#f0c611, #ffa200); */
   border-radius: 0;
-  color: @bg_color;
+  color: @bgc;
 }
 
 #clock,
@@ -82,9 +89,10 @@ button:hover {
 #wireplumber,
 #custom-media,
 #tray,
+#scratchpad-indicator,
 #language {
-  padding: 5px 5px;
-  color: @fg_color;
+  padding: 2px 3px;
+  color: @wdc;
 }
 
 #window {
@@ -112,7 +120,7 @@ button:hover {
 
 @keyframes blink {
   to {
-    background-color: #ffffff;
+    background-color: @fgc;
     color: #000000;
   }
 }
@@ -130,7 +138,7 @@ button:hover {
 
 tooltip {
    border-radius: 4px;
-   border: 2px solid @fg_color;
-
-   background-color: @bg_color;
+   border: 2px solid @fgc;
+   color: @wfc;
+   background-color: @bgc;
 }

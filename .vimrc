@@ -6,6 +6,7 @@ set softtabstop=4
 set autoindent
 set cursorline
 "set cursorcolumn
+DoMatchParen
 
 " vim-plug automatic installation script
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
@@ -34,6 +35,12 @@ Plug 'https://github.com/vim-airline/vim-airline.git'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 Plug 'https://github.com/tpope/vim-surround.git'
+
+Plug 'https://github.com/chrisbra/Colorizer.git'
+
+Plug 'https://github.com/ycm-core/YouCompleteMe.git'
+
+Plug 'https://github.com/jiangmiao/auto-pairs.git'
 
 " Initialize plugin system
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
