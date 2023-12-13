@@ -89,10 +89,13 @@ button:hover {
 #wireplumber,
 #custom-media,
 #tray,
-#scratchpad-indicator,
 #language {
   padding: 2px 3px;
   color: @wdc;
+}
+
+#custom-scratchpad-indicator {
+        color: @wfc;
 }
 
 #window {
