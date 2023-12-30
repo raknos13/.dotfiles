@@ -1,0 +1,648 @@
+Script started on 2023-12-14 18:19:16+05:30 [TERM="alacritty" TTY="/dev/pts/0" COLUMNS="86" LINES="43"]
+[1m[7m%[27m[1m[0m                                                                                      ]2;mkso@raknos:~/.config/rofi]1;~/.config/rofi]7;file://raknos/home/mkso/.config/rofi\[0m[27m[24m[J[01;32m➜  [36mrofi[00m [K[?1h=[?2004hscript[32ms[32mc[32mr[32mi[32mp[32mt[39m[32mt[32ms[39m[4m[32ms[4m[32mc[4m[32mr[4m[32mi[4m[32mp[4m[32mt[4m[32ms[24m[39m[4m[32ms[1m[4m[32m/[0m[24m[39m[4m[32ms[24m[39m[0m[24m[39m [?1l>[?2004l
+]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                      ]2;mkso@raknos:~/.config/rofi/scripts]1;../rofi/scripts]7;file://raknos/home/mkso/.config/rofi/scripts\[0m[27m[24m[J[01;32m➜  [36mscripts[00m [K[?1h=[?2004hl[32ml[39m[32ml[39m[90ms[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls --color=tty]1;ls[0m[01;36mlauncher_t1[0m  [01;36mlauncher_t4[0m  [01;36mlauncher_t7[0m   [01;36mpowermenu_t3[0m  [01;36mpowermenu_t6[0m
+[01;36mlauncher_t2[0m  [01;36mlauncher_t5[0m  [01;36mpowermenu_t1[0m  [01;36mpowermenu_t4[0m
+[01;36mlauncher_t3[0m  [01;36mlauncher_t6[0m  [01;36mpowermenu_t2[0m  [01;36mpowermenu_t5[0m
+[1m[7m%[27m[1m[0m                                                                                      ]2;mkso@raknos:~/.config/rofi/scripts]1;../rofi/scripts]7;file://raknos/home/mkso/.config/rofi/scripts\[0m[27m[24m[J[01;32m➜  [36mscripts[00m [K[?1h=[?2004hc[1m[31mc[0m[39m[1m[31mc[0m[39m[90md .config/rofi[39m[14D[1m[31mc[1m[31md[0m[39m[0m[32mc[0m[32md[39m[32mc[32md[32m [39m[32mc[32md[39m[39m [39m.[4m.[24m[4m.[39m[4m.[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                      ]2;mkso@raknos:~/.config/rofi]1;~/.config/rofi]7;file://raknos/home/mkso/.config/rofi\[0m[27m[24m[J[01;32m➜  [36mrofi[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m [0m[27m[24m[J[01;32m➜  [36mrofi[00m l[32ml[39m[32ml[39m[90ms[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls --color=tty]1;ls[0m[01;34mapplets[0m  config.rasi  [01;34mlaunchers[0m  [01;34mscripts[0m
+[01;34mcolors[0m   [01;34mimages[0m       [01;34mpowermenu[0m  typescript
+[1m[7m%[27m[1m[0m                                                                     ]2;mkso@raknos:~/.config/rofi]1;~/.config/rofi]7;file://raknos/home/mkso/.config/rofi\[0m[27m[24m[J[01;32m➜  [36mrofi[00m [K[?1h=[?2004hm[1m[31mm[0m[39m[1m[31mm[0m[39m[90mkdir .vim/colors[39m[16D[1m[31mm[1m[31mk[0m[39m[1m[31mm[1m[31mk[1m[31md[0m[39m[1m[31md[1m[31mi[0m[39m[1m[31mi[1m[31mr[0m[39m[0m[32mm[0m[32mk[0m[32md[0m[32mi[0m[32mr[39m[32mr[32m [39m[32mr[39m[39m [39mc[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[4mc[24m[4mc[4mu[24m[24mc[24mustom[?1l>[?2004l
+]2;mkdir custom]1;mkdir[1m[7m%[27m[1m[0m                                                                     ]2;mkso@raknos:~/.config/rofi]1;~/.config/rofi]7;file://raknos/home/mkso/.config/rofi\[0m[27m[24m[J[01;32m➜  [36mrofi[00m [K[?1h=[?2004hc[4mc[24m[4mc[24m[90md ..[39m[4mc[39m[4md[24m[24m[32mc[24m[32md[39m[32mc[32md[32m [39m[32mc[32md[39m[39m [39mc[39m [4mc[24m[90monfig/[39m[4mc[39m[4mu[24m[39m [39m [39m [39m [39m [4mu[4ms[24m[4ms[4mt[24m[4mt[4mo[24m[4mo[4mm[24m[?1l>[?2004l
+]2;cd custom]1;cd[1m[7m%[27m[1m[0m                                                                     ]2;mkso@raknos:~/.config/rofi/custom]1;..g/rofi/custom]7;file://raknos/home/mkso/.config/rofi/custom\[0m[27m[24m[J[01;32m➜  [36mcustom[00m [K[?1h=[?2004hggit clone https://github.com/zbaylin/rofi-wifi-menu.git[55D[7mg[7mi[7mt[7m [7mc[7ml[7mo[7mn[7me[7m [7mh[7mt[7mt[7mp[7ms[7m:[7m/[7m/[7mg[7mi[7mt[7mh[7mu[7mb[7m.[7mc[7mo[7mm[7m/[7mz[7mb[7ma[7my[7ml[7mi[7mn[7m/[7mr[7mo[7mf[7mi[7m-[7mw[7mi[7mf[7mi[7m-[7mm[7me[7mn[7mu[7m.[7mg[7mi[7mt[27m[55D[27mg[27mi[27mt[27m [27mc[27ml[27mo[27mn[27me[27m [27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mz[27mb[27ma[27my[27ml[27mi[27mn[27m/[27mr[27mo[27mf[27mi[27m-[27mw[27mi[27mf[27mi[27m-[27mm[27me[27mn[27mu[27m.[27mg[27mi[27mt[55D[32mg[32mi[32mt[39m[52C[?1l>[?2004l
+]2;git clone https://github.com/zbaylin/rofi-wifi-menu.git]1;gitCloning into 'rofi-wifi-menu'...
+remote: Enumerating objects: 98, done.[K
+Receiving objects:   1% (1/98)Receiving objects:   2% (2/98)Receiving objects:   3% (3/98)Receiving objects:   4% (4/98)Receiving objects:   5% (5/98)Receiving objects:   6% (6/98)Receiving objects:   7% (7/98)Receiving objects:   8% (8/98)Receiving objects:   9% (9/98)Receiving objects:  10% (10/98)Receiving objects:  11% (11/98)Receiving objects:  12% (12/98)Receiving objects:  13% (13/98)Receiving objects:  14% (14/98)Receiving objects:  15% (15/98)Receiving objects:  16% (16/98)Receiving objects:  17% (17/98)Receiving objects:  18% (18/98)Receiving objects:  19% (19/98)Receiving objects:  20% (20/98)Receiving objects:  21% (21/98)Receiving objects:  22% (22/98)Receiving objects:  23% (23/98)Receiving objects:  24% (24/98)Receiving objects:  25% (25/98)Receiving objects:  26% (26/98)Receiving objects:  27% (27/98)Receiving objects:  28% (28/98)Receiving objects:  29% (29/98)Receiving objects:  30% (30/98)Receiving objects:  31% (31/98)Receiving objects:  32% (32/98)Receiving objects:  33% (33/98)Receiving objects:  34% (34/98)Receiving objects:  35% (35/98)Receiving objects:  36% (36/98)Receiving objects:  37% (37/98)Receiving objects:  38% (38/98)Receiving objects:  39% (39/98)Receiving objects:  40% (40/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  41% (41/98), 116.01 KiB | 197.00 KiB/sremote: Total 98 (delta 0), reused 0 (delta 0), pack-reused 98[K
+Receiving objects:  42% (42/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  43% (43/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  44% (44/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  45% (45/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  46% (46/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  47% (47/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  48% (48/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  50% (49/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  51% (50/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  52% (51/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  53% (52/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  54% (53/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  55% (54/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  56% (55/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  57% (56/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  58% (57/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  59% (58/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  60% (59/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  61% (60/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  62% (61/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  63% (62/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  64% (63/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  65% (64/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  66% (65/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  67% (66/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  68% (67/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  69% (68/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  70% (69/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  71% (70/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  72% (71/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  73% (72/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  74% (73/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  75% (74/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  76% (75/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  77% (76/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  78% (77/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  79% (78/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  80% (79/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  81% (80/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  82% (81/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  83% (82/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  84% (83/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  85% (84/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  86% (85/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  87% (86/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  88% (87/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  89% (88/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  90% (89/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  91% (90/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  92% (91/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  93% (92/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  94% (93/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  95% (94/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  96% (95/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  97% (96/98), 116.01 KiB | 197.00 KiB/sReceiving objects:  98% (97/98), 116.01 KiB | 197.00 KiB/sReceiving objects: 100% (98/98), 116.01 KiB | 197.00 KiB/sReceiving objects: 100% (98/98), 184.90 KiB | 323.00 KiB/s, done.
+Resolving deltas:   0% (0/39)Resolving deltas:   2% (1/39)Resolving deltas:   5% (2/39)Resolving deltas:   7% (3/39)Resolving deltas:  10% (4/39)Resolving deltas:  12% (5/39)Resolving deltas:  15% (6/39)Resolving deltas:  17% (7/39)Resolving deltas:  25% (10/39)Resolving deltas:  28% (11/39)Resolving deltas:  30% (12/39)Resolving deltas:  33% (13/39)Resolving deltas:  35% (14/39)Resolving deltas:  38% (15/39)Resolving deltas:  41% (16/39)Resolving deltas:  43% (17/39)Resolving deltas:  46% (18/39)Resolving deltas:  48% (19/39)Resolving deltas:  51% (20/39)Resolving deltas:  53% (21/39)Resolving deltas:  56% (22/39)Resolving deltas:  58% (23/39)Resolving deltas:  61% (24/39)Resolving deltas:  66% (26/39)Resolving deltas:  69% (27/39)Resolving deltas:  71% (28/39)Resolving deltas:  74% (29/39)Resolving deltas:  76% (30/39)Resolving deltas:  79% (31/39)Resolving deltas:  82% (32/39)Resolving deltas:  84% (33/39)Resolving deltas:  87% (34/39)Resolving deltas:  89% (35/39)Resolving deltas:  92% (36/39)Resolving deltas:  94% (37/39)Resolving deltas:  97% (38/39)Resolving deltas: 100% (39/39)Resolving deltas: 100% (39/39), done.
+[1m[7m%[27m[1m[0m                                                                     ]2;mkso@raknos:~/.config/rofi/custom]1;..g/rofi/custom]7;file://raknos/home/mkso/.config/rofi/custom\[0m[27m[24m[J[01;32m➜  [36mcustom[00m [K[?1h=[?2004hc[1m[31mc[0m[39m[1m[31mc[0m[39m[90md custom[39m[8D[1m[31mc[1m[31md[0m[39m[0m[32mc[0m[32md[39m[32mc[32md[32m [39m[32mc[32md[39m[39m [39mr[39m [39m [39m [39m [39m [4mr[24m[90mofi[39m[4mr[39m[4mo[24m[4mo[39m[4mf[24m[4mf[39m[4mi[24m[4mi[4m-wifi-menu[1m[4m/[0m[24m[4mu[24m[0m[24m [?1l>[?2004l
+]2;cd rofi-wifi-menu]1;cd[1m[7m%[27m[1m[0m                                                                     ]2;mkso@raknos:~/.config/rofi/custom/rofi-wifi-menu]1;..ofi-wifi-menu]7;file://raknos/home/mkso/.config/rofi/custom/rofi-wifi-menu\[0m[27m[24m[J[01;32m➜  [36mrofi-wifi-menu[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hl[32ml[39m[32ml[39m[90ms[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls --color=tty]1;ls[0m[01;32mconfig.example[0m  README.md  [01;32mrofi-wifi-menu.sh[0m  [01;34mscreenshots[0m
+[1m[7m%[27m[1m[0m                                                                     ]2;mkso@raknos:~/.config/rofi/custom/rofi-wifi-menu]1;..ofi-wifi-menu]7;file://raknos/home/mkso/.config/rofi/custom/rofi-wifi-menu\[0m[27m[24m[J[01;32m➜  [36mrofi-wifi-menu[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004h.[32m.[39m[32m.[39m[90m/run_tests.py[39m[13D[32m.[32m/[39m[4m[32m.[4m[32m/[24m[39m[4m[32m.[4m[32m/[4m[32mr[24m[39m[39m[4m.[39m[4m/[39m[4mr[24m[4mr[39m[4mo[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[4mo[4mf[24m[24m[32m.[24m[32m/[24m[32mr[24m[32mo[24m[32mf[32mi-wifi-menu.sh[39m[1m [0m[0m [?1l>[?2004l
+]2;./rofi-wifi-menu.sh]1;./rofi-wifi-menu.shWARNING: config file not found! Using default values.
+Error: No network with SSID '' found.
+[1m[7m%[27m[1m[0m                                                                     ]2;mkso@raknos:~/.config/rofi/custom/rofi-wifi-menu]1;..ofi-wifi-menu]7;file://raknos/home/mkso/.config/rofi/custom/rofi-wifi-menu\[0m[27m[24m[J[01;31m➜  [36mrofi-wifi-menu[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hv[1m[31mv[0m[39m[1m[31mv[0m[39m[90mim .waybar[39m[10D[1m[31mv[1m[31mi[0m[39m[0m[32mv[0m[32mi[39m[32mv[32mi[32mm[39m[32mm[32m [39m[32mm[39m[39m [39mc[39m [39m [39m [39m [39m [39m [4mc[24m[90mard0[39m[4mc[39m[4mo[24m[39m [39m [39m [90mnfig.ini[39m[8D[4mo[39m[4mn[24m[4mn[39m[4mf[39m[4mi[39m[4mg[39m[4m.[39m[4me[39m[4mx[39m[4ma[4mmple[24m[1m [0m[0m [?1l>[?2004l
+]2;vim config.example]1;vim[?1049h[22;0;0t[?1h=[?2004h[1;43r[27m[24m[23m[0m[38;5;223m[48;5;235m[H[2J[?25l[43;1H"config.example" 19L, 204B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[1;1H[38;5;243m1   [0m[38;5;223m[48;5;235m[38;5;245m# Config for rofi-wifi-menu[0m[38;5;223m[48;5;235m
+[38;5;243m  1 [0m[38;5;223m[48;5;235m[2;5H[K[3;1H[38;5;243m  2 [0m[38;5;223m[48;5;235m[38;5;245m# position values:[0m[38;5;223m[48;5;235m[3;23H[K[4;1H[38;5;243m  3 [0m[38;5;223m[48;5;235m[38;5;245m# 1 2 3[0m[38;5;223m[48;5;235m
+[38;5;243m  4 [0m[38;5;223m[48;5;235m[38;5;245m# 8 0 4[0m[38;5;223m[48;5;235m
+[38;5;243m  5 [0m[38;5;223m[48;5;235m[38;5;245m# 7 6 5[0m[38;5;223m[48;5;235m
+[38;5;243m  6 [0m[38;5;223m[48;5;235mPOSITION=3
+[38;5;243m  7 
+  8 [0m[38;5;223m[48;5;235m[38;5;245m#y-offset[0m[38;5;223m[48;5;235m
+[38;5;243m  9 [0m[38;5;223m[48;5;235mYOFF=17
+[38;5;243m 10 
+ 11 [0m[38;5;223m[48;5;235m[38;5;245m#x-offset[0m[38;5;223m[48;5;235m
+[38;5;243m 12 [0m[38;5;223m[48;5;235mXOFF=0
+[38;5;243m 13 
+ 14 [0m[38;5;223m[48;5;235m[38;5;245m#fields to be displayed[0m[38;5;223m[48;5;235m
+[38;5;243m 15 [0m[38;5;223m[48;5;235mFIELDS=SSID,SECURITY,BARS
+[38;5;243m 16 
+ 17 [0m[38;5;223m[48;5;235m[38;5;245m#font[0m[38;5;223m[48;5;235m
+[38;5;243m 18 [0m[38;5;223m[48;5;235mFONT=[38;5;142m"DejaVu Sans Mono 8"[0m[38;5;223m[48;5;235m
+[38;5;239m~                                                                    [21;1H~                                                                    [22;1H~                                                                    [23;1H~                                                                    [24;1H~                                                                    [25;1H~                                                                    [26;1H~                                                                    [27;1H~                                                                    [28;1H~                                                                    [29;1H~                                                                    [30;1H~                                                                    [31;1H~                                                                    [32;1H~                                                                    [33;1H~                                                                    [34;1H~                                                                    [35;1H~                                                                    [36;1H~                                                                    [37;1H~                                                                    [38;1H~                                                                    [39;1H~                                                                    [40;1H~                                                                    [41;1H~                                                                    [0m[38;5;223m[48;5;235m[42;1H[38;5;235m[48;5;246m [0m[38;5;223m[48;5;235m[1m[38;5;235m[48;5;246mN…[0m[38;5;223m[48;5;235m[42;4H[38;5;235m[48;5;246m [0m[38;5;223m[48;5;235m[38;5;246m[48;5;237m config.example                                con…[42;56H [0m[38;5;223m[48;5;235m[38;5;235m[48;5;246m 5%[0m[38;5;223m[48;5;235m[1m[38;5;235m[48;5;246m ㏑:1 ℅[42;67H:1[0m[38;5;223m[48;5;235m[38;5;235m[48;5;246m [1;5H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hj[1;5H[43;59H [2;5H[1;1H[38;5;243m  1
+2  
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17[0m[38;5;223m[48;5;235m[42;51H[38;5;246m[48;5;237mcon…[42;55H [0m[38;5;223m[48;5;235m[38;5;235m[48;5;246m 10[0m[38;5;223m[48;5;235m[5C[1m[38;5;235m[48;5;246m2[2;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hj[2;5H[43;59H [3;5H[1;3H[38;5;243m2
+  1
+3  
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16[0m[38;5;223m[48;5;235m[42;58H[38;5;235m[48;5;246m5[0m[38;5;223m[48;5;235m[5C[1m[38;5;235m[48;5;246m3[3;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hj[3;5H[43;59H [4;5H[1;3H[38;5;243m3
+  2
+  1
+4  
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15[0m[38;5;223m[48;5;235m[42;57H[38;5;235m[48;5;246m21[0m[38;5;223m[48;5;235m[5C[1m[38;5;235m[48;5;246m4[4;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hj[4;5H[43;59H [5;5H[1;3H[38;5;243m4
+  3
+  2
+  1
+5  
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14[0m[38;5;223m[48;5;235m[42;58H[38;5;235m[48;5;246m6[0m[38;5;223m[48;5;235m[5C[1m[38;5;235m[48;5;246m5[5;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hj[5;5H[43;59H [6;5H[1;3H[38;5;243m5
+  4
+  3
+  2
+  1
+6  
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13[0m[38;5;223m[48;5;235m[42;57H[38;5;235m[48;5;246m31[0m[38;5;223m[48;5;235m[5C[1m[38;5;235m[48;5;246m6[6;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hj[6;5H[43;59H [7;5H[1;3H[38;5;243m6
+  5
+  4
+  3
+  2
+  1
+7  
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12[0m[38;5;223m[48;5;235m[42;58H[38;5;235m[48;5;246m6[0m[38;5;223m[48;5;235m[5C[1m[38;5;235m[48;5;246m7[7;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hj[7;5H[43;59H [8;5H[1;3H[38;5;243m7
+  6
+  5
+  4
+  3
+  2
+  1
+8  
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11[0m[38;5;223m[48;5;235m[42;57H[38;5;235m[48;5;246m42[0m[38;5;223m[48;5;235m[5C[1m[38;5;235m[48;5;246m8[8;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hj[8;5H[43;59H [9;5H[1;3H[38;5;243m8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+9  
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10[0m[38;5;223m[48;5;235m[42;58H[38;5;235m[48;5;246m7[0m[38;5;223m[48;5;235m[5C[1m[38;5;235m[48;5;246m9[9;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hj[9;5H[43;59H [10;5H[1;3H[38;5;243m9
+  8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+10 
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9[0m[38;5;223m[48;5;235m[42;50H[38;5;246m[48;5;237mcon…[42;54H [0m[38;5;223m[48;5;235m[38;5;235m[48;5;246m 52%[0m[38;5;223m[48;5;235m[1m[38;5;235m[48;5;246m ㏑:10[10;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hj[10;5H[43;59H [11;5H[1;2H[38;5;243m10
+  9
+  8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+11 
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8[0m[38;5;223m[48;5;235m[42;57H[38;5;235m[48;5;246m7[0m[38;5;223m[48;5;235m[6C[1m[38;5;235m[48;5;246m1[11;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hj[11;5H[43;59H [12;5H[1;3H[38;5;243m1
+ 10
+  9
+  8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+12 
+  1
+  2
+  3
+  4
+  5
+  6
+  7[0m[38;5;223m[48;5;235m[42;56H[38;5;235m[48;5;246m63[0m[38;5;223m[48;5;235m[6C[1m[38;5;235m[48;5;246m2[12;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hj[12;5H[43;59H [13;5H[1;3H[38;5;243m2
+ 11
+ 10
+  9
+  8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+13 
+  1
+  2
+  3
+  4
+  5
+  6[0m[38;5;223m[48;5;235m[42;57H[38;5;235m[48;5;246m8[0m[38;5;223m[48;5;235m[6C[1m[38;5;235m[48;5;246m3[13;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hj[13;5H[43;59H [14;5H[1;3H[38;5;243m3
+ 12
+ 11
+ 10
+  9
+  8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+14 
+  1
+  2
+  3
+  4
+  5[0m[38;5;223m[48;5;235m[42;56H[38;5;235m[48;5;246m73[0m[38;5;223m[48;5;235m[6C[1m[38;5;235m[48;5;246m4[14;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hj[14;5H[43;59H [15;5H[1;3H[38;5;243m4
+ 13
+ 12
+ 11
+ 10
+  9
+  8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+15 
+  1
+  2
+  3
+  4[0m[38;5;223m[48;5;235m[42;57H[38;5;235m[48;5;246m8[0m[38;5;223m[48;5;235m[6C[1m[38;5;235m[48;5;246m5[15;5H[?12l[?25h[?25l[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hj[15;5H[43;59H [16;5H[1;3H[38;5;243m5
+ 14
+ 13
+ 12
+ 11
+ 10
+  9
+  8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+16 
+  1
+  2
+  3[0m[38;5;223m[48;5;235m[42;56H[38;5;235m[48;5;246m84[0m[38;5;223m[48;5;235m[6C[1m[38;5;235m[48;5;246m6[16;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hk[16;5H[43;59H [15;5H[1;3H[38;5;243m4
+ 13
+ 12
+ 11
+ 10
+  9
+  8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+15 
+  1
+  2
+  3
+  4[0m[38;5;223m[48;5;235m[42;56H[38;5;235m[48;5;246m78[0m[38;5;223m[48;5;235m[6C[1m[38;5;235m[48;5;246m5[15;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hk[15;5H[43;59H [14;5H[1;3H[38;5;243m3
+ 12
+ 11
+ 10
+  9
+  8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+14 
+  1
+  2
+  3
+  4
+  5[0m[38;5;223m[48;5;235m[42;57H[38;5;235m[48;5;246m3[0m[38;5;223m[48;5;235m[6C[1m[38;5;235m[48;5;246m4[14;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hk[14;5H[43;59H [13;5H[1;3H[38;5;243m2
+ 11
+ 10
+  9
+  8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+13 
+  1
+  2
+  3
+  4
+  5
+  6[0m[38;5;223m[48;5;235m[42;56H[38;5;235m[48;5;246m68[0m[38;5;223m[48;5;235m[6C[1m[38;5;235m[48;5;246m3[13;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hk[13;5H[43;59H [12;5H[1;3H[38;5;243m1
+ 10
+  9
+  8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+12 
+  1
+  2
+  3
+  4
+  5
+  6
+  7[0m[38;5;223m[48;5;235m[42;57H[38;5;235m[48;5;246m3[0m[38;5;223m[48;5;235m[6C[1m[38;5;235m[48;5;246m2[12;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hk[12;5H[43;59H [11;5H[1;3H[38;5;243m0
+  9
+  8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+11 
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8[0m[38;5;223m[48;5;235m[42;56H[38;5;235m[48;5;246m57[0m[38;5;223m[48;5;235m[6C[1m[38;5;235m[48;5;246m1[11;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hk[11;5H[43;59H [10;5H[1;2H[38;5;243m 9
+  8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+10 
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9[0m[38;5;223m[48;5;235m[42;57H[38;5;235m[48;5;246m2[0m[38;5;223m[48;5;235m[6C[1m[38;5;235m[48;5;246m0[10;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hk[10;5H[43;59H [9;5H[1;3H[38;5;243m8
+  7
+  6
+  5
+  4
+  3
+  2
+  1
+9  
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10[0m[38;5;223m[48;5;235m[42;50H[38;5;246m[48;5;237m con…[42;55H [0m[38;5;223m[48;5;235m[38;5;235m[48;5;246m 47%[0m[38;5;223m[48;5;235m[1m[38;5;235m[48;5;246m ㏑:9[9;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hk[9;5H[43;59H [8;5H[1;3H[38;5;243m7
+  6
+  5
+  4
+  3
+  2
+  1
+8  
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11[0m[38;5;223m[48;5;235m[42;58H[38;5;235m[48;5;246m2[0m[38;5;223m[48;5;235m[5C[1m[38;5;235m[48;5;246m8[8;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hk[8;5H[43;59H [7;5H[1;3H[38;5;243m6
+  5
+  4
+  3
+  2
+  1
+7  
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12[0m[38;5;223m[48;5;235m[42;57H[38;5;235m[48;5;246m36[0m[38;5;223m[48;5;235m[5C[1m[38;5;235m[48;5;246m7[7;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hk[7;5H[43;59H [6;5H[1;3H[38;5;243m5
+  4
+  3
+  2
+  1
+6  
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13[0m[38;5;223m[48;5;235m[42;58H[38;5;235m[48;5;246m1[0m[38;5;223m[48;5;235m[5C[1m[38;5;235m[48;5;246m6[6;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hj[6;5H[43;59H [7;5H[1;3H[38;5;243m6
+  5
+  4
+  3
+  2
+  1
+7  
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12[0m[38;5;223m[48;5;235m[42;58H[38;5;235m[48;5;246m6[0m[38;5;223m[48;5;235m[5C[1m[38;5;235m[48;5;246m7[7;5H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hl[7;5H[43;59H [7;6H[42;68H[1m[38;5;235m[48;5;246m2[7;6H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hl[7;6H[43;59H [7;7H[42;68H[1m[38;5;235m[48;5;246m3[7;7H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hl[7;7H[43;59H [7;8H[42;68H[1m[38;5;235m[48;5;246m4[7;8H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hl[7;8H[43;59H [7;9H[42;68H[1m[38;5;235m[48;5;246m5[7;9H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hl[7;9H[43;59H [7;10H[42;68H[1m[38;5;235m[48;5;246m6[7;10H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hl[7;10H[43;59H [7;11H[42;68H[1m[38;5;235m[48;5;246m7[7;11H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hl[7;11H[43;59H [7;12H[42;68H[1m[38;5;235m[48;5;246m8[7;12H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hl[7;12H[43;59H [7;13H[42;68H[1m[38;5;235m[48;5;246m9[7;13H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59Hl[7;13H[43;59H [7;14H[42;50H[38;5;246m[48;5;237mcon…[42;54H [0m[38;5;223m[48;5;235m[38;5;235m[48;5;246m 36%[0m[38;5;223m[48;5;235m[1m[38;5;235m[48;5;246m ㏑:7 ℅[42;66H:10[7;14H[?12l[?25h[?25l[0m[38;5;223m[48;5;235m[43;59HZ[7;14H[?12l[?25h[?25l[43;60HZ[7;14H[43;1H[?2004l[43;1H[K[43;1H[?2004l[?1l>[?1049l[23;0;0t[?12l[?25h[1m[7m%[27m[1m[0m                                                                     ]2;mkso@raknos:~/.config/rofi/custom/rofi-wifi-menu]1;..ofi-wifi-menu]7;file://raknos/home/mkso/.config/rofi/custom/rofi-wifi-menu\[0m[27m[24m[J[01;32m➜  [36mrofi-wifi-menu[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hi[1m[31mi[0m[39m[1m[31mi[0m[39m[90mii[39m[1m[31mi[1m[31mw[0m[39m[39m [0m[32mi[0m[32mw[39m[32mi[32mw[32mc[39m[1m[31mi[1m[31mw[1m[31mc[0m[39m[1m[31mc[1m[31mt[0m[39m[1m[31mt[1m[31ml[0m[39m[1m[31mt[0m[39m[0m[39m [1m[31mc[0m[39m[0m[39m [1m[31mi[1m[31mw[0m[39m[0m[39m [0m[32mi[0m[32mw[39m[32mi[39m[39m [1m[31mi[0m[39m[1m[31mi[0m[39m[90mii[39m[0m[39m [39m [39m i[1m[31mi[0m[39m[1m[31mi[0m[39m[90mii[39m[1m[31mi[1m[31mw[0m[39m[39m [0m[32mi[0m[32mw[39m[32mi[32mw[32m [39m[32mi[32mw[39m[39m [32mi[32mw[32mc[39m[1m[31mi[1m[31mw[1m[31mc[0m[39m[1m[31mc[1m[31mt[0m[39m[1m[31mt[1m[31ml[0m[39m[1m[31mt[0m[39m[0m[39m [1m[31mc[0m[39m[0m[39m [1m[31mi[1m[31mw[0m[39m[0m[39m [0m[32mi[0m[32mw[39m[?1l>[?2004l
+]2;iw]1;iwUsage:	iw [options] command
+Options:
+	--debug		enable netlink debugging
+	--version	show version (5.19)
+Commands:
+	dev <devname> ap start 
+	dev <devname> ap stop 
+	phy <phyname> coalesce enable <config-file>
+	phy <phyname> coalesce disable 
+	phy <phyname> coalesce show 
+	dev <devname> disconnect
+	dev <devname> connect [-w] <SSID> [<freq in MHz>] [<bssid>] [auth open|shared] [key 0:abcde d:1:6162636465] [mfp:req/opt/no]
+	dev <devname> auth <SSID> <bssid> <type:open|shared> <freq in MHz> [key 0:abcde d:1:6162636465]
+	dev <devname> cqm rssi <threshold|off> [<hysteresis>]
+	event [-t|-T|-r] [-f]
+	dev <devname> ftm get_stats 
+	dev <devname> ftm start_responder [lci=<lci buffer in hex>] [civic=<civic buffer in hex>]
+	phy <phyname> hwsim getps 
+	phy <phyname> hwsim setps <value>
+	phy <phyname> hwsim stopqueues 
+	phy <phyname> hwsim wakequeues 
+	dev <devname> ibss leave
+	dev <devname> ibss join <SSID> <freq in MHz> [NOHT|HT20|HT40+|HT40-|5MHz|10MHz|80MHz] [fixed-freq] [<fixed bssid>] [beacon-interval <TU>] [basic-rates <rate in Mbps,rate2,...>] [mcast-rate <rate in Mbps>] [key d:0:abcde]
+	phy <phyname> info
+	list
+	phy
+	commands
+	features 
+	phy <phyname> interface add <name> type <type> [mesh_id <meshid>] [4addr on|off] [flags <flag>*] [addr <mac-addr>]
+	dev <devname> interface add <name> type <type> [mesh_id <meshid>] [4addr on|off] [flags <flag>*] [addr <mac-addr>]
+	dev <devname> del
+	dev <devname> info
+	dev
+	dev <devname> switch freq <freq> [NOHT|HT20|HT40+|HT40-|5MHz|10MHz|80MHz] [beacons <count>] [block-tx]
+	dev <devname> switch freq <control freq> [5|10|20|40|80|80+80|160] [<center1_freq> [<center2_freq>]] [beacons <count>] [block-tx]
+	dev <devname> switch channel <channel> [NOHT|HT20|HT40+|HT40-|5MHz|10MHz|80MHz] [beacons <count>] [block-tx]
+	help [command]
+	dev <devname> link
+	dev <devname> measurement ftm_request <config-file> [timeout=<seconds>] [randomise[=<addr>/<mask>]]
+	dev <devname> mesh join <mesh ID> [[freq <freq in MHz> <NOHT|HT20|HT40+|HT40-|80MHz>] [basic-rates <rate in Mbps,rate2,...>]], [mcast-rate <rate in Mbps>] [beacon-interval <time in TUs>] [dtim-period <value>] [vendor_sync on|off] [<param>=<value>]*
+	dev <devname> mesh leave
+	dev <devname> mesh_param dump 
+	dev <devname> mgmt dump frame <type as hex ab> <pattern as hex ab:cd:..> [frame <type> <pattern>]* [count <frames>]
+	dev <devname> mpath probe <destination MAC address> frame <frame>
+	dev <devname> mpath get <MAC address>
+	dev <devname> mpath del <MAC address>
+	dev <devname> mpath new <destination MAC address> next_hop <next hop MAC address>
+	dev <devname> mpath set <destination MAC address> next_hop <next hop MAC address>
+	dev <devname> mpath dump
+	dev <devname> mpp get <MAC address>
+	dev <devname> mpp dump
+	wdev <idx> nan start pref <pref> [bands [2GHz] [5GHz]]
+	wdev <idx> nan stop 
+	wdev <idx> nan config [pref <pref>] [bands [2GHz] [5GHz]]
+	wdev <idx> nan rm_func cookie <cookie>
+	wdev <idx> nan add_func type <publish|subscribe|followup> [active] [solicited] [unsolicited] [bcast] [close_range] name <name> [info <info>] [flw_up_id <id> flw_up_req_id <id> flw_up_dest <mac>] [ttl <ttl>] [srf <include|exclude> <bf|list> [bf_idx] [bf_len] <mac1;mac2...>] [rx_filter <str1:str2...>] [tx_filter <str1:str2...>]
+	dev <devname> ocb join <freq in MHz> <5MHz|10MHz>
+	dev <devname> ocb leave
+	dev <devname> offchannel <freq> <duration>
+	wdev <idx> p2p start 
+	wdev <idx> p2p stop 
+	phy <phyname> channels
+	dev <devname> cac channel <channel> [NOHT|HT20|HT40+|HT40-|5MHz|10MHz|80MHz]
+	dev <devname> cac freq <freq> [NOHT|HT20|HT40+|HT40-|5MHz|10MHz|80MHz]
+	dev <devname> cac freq <control freq> [5|10|20|40|80|80+80|160] [<center1_freq> [<center2_freq>]]
+	dev <devname> cac trigger channel <channel> [NOHT|HT20|HT40+|HT40-|5MHz|10MHz|80MHz]
+	dev <devname> cac trigger freq <frequency> [NOHT|HT20|HT40+|HT40-|5MHz|10MHz|80MHz]
+	dev <devname> cac trigger freq <frequency> [5|10|20|40|80|80+80|160] [<center1_freq> [<center2_freq>]]
+	reg set <ISO/IEC 3166-1 alpha2>
+	reg get
+	phy <phyname> reg get
+	reg reload
+	dev <devname> roc start <freq> <time in ms>
+	dev <devname> scan [-u] [freq <freq>*] [duration <dur>] [ies <hex as 00:11:..>] [meshid <meshid>] [lowpri,flush,ap-force,duration-mandatory] [randomise[=<addr>/<mask>]] [ssid <ssid>*|passive]
+	dev <devname> scan dump [-u]
+	dev <devname> scan trigger [freq <freq>*] [duration <dur>] [ies <hex as 00:11:..>] [meshid <meshid>] [lowpri,flush,ap-force,duration-mandatory,coloc] [randomise[=<addr>/<mask>]] [ssid <ssid>*|passive]
+	dev <devname> scan abort 
+	dev <devname> scan sched_start [interval <in_msecs> | scan_plans [<interval_secs:iterations>*] <interval_secs>] [delay <in_secs>] [freqs <freq>+] [matches [ssid <ssid>]+]] [active [ssid <ssid>]+|passive] [randomise[=<addr>/<mask>]] [coloc] [flush]
+	dev <devname> scan sched_stop 
+	dev <devname> get mesh_param [<param>]
+	phy <phyname> get txq 
+	dev <devname> get power_save 
+	dev <devname> set bitrates [legacy-<2.4|5> <legacy rate in Mbps>*] [ht-mcs-<2.4|5> <MCS index>*] [vht-mcs-<2.4|5> [he-mcs-<2.4|5|6> <NSS:MCSx,MCSy... | NSS:MCSx-MCSy>*] [sgi-2.4|lgi-2.4] [sgi-5|lgi-5] [he-gi-<2.4|5|6> <0.8|1.6|3.2>] [he-ltf-<2.4|5|6> <1|2|4>]
+	dev <devname> set monitor <flag>*
+	dev <devname> set meshid <meshid>
+	dev <devname> set type <type>
+	dev <devname> set 4addr <on|off>
+	dev <devname> set noack_map <map>
+	dev <devname> set peer <MAC address>
+	dev <devname> set mcast_rate <rate in Mbps>
+	dev <devname> set tidconf [peer <MAC address>] tids <mask> [override] [sretry <num>] [lretry <num>] [ampdu [on|off]] [amsdu [on|off]] [noack [on|off]] [rtscts [on|off]][bitrates <type [auto|fixed|limit]> [legacy-<2.4|5> <legacy rate in Mbps>*] [ht-mcs-<2.4|5> <MCS index>*] [vht-mcs-<2.4|5> <NSS:MCSx,MCSy... | NSS:MCSx-MCSy>*] [sgi-2.4|lgi-2.4] [sgi-5|lgi-5]]
+	dev <devname> set mesh_param <param>=<value> [<param>=<value>]*
+	phy <phyname> set name <new name>
+	phy <phyname> set freq <freq> [NOHT|HT20|HT40+|HT40-|5MHz|10MHz|80MHz|160MHz]
+	phy <phyname> set freq <control freq> [5|10|20|40|80|80+80|160] [<center1_freq> [<center2_freq>]]
+	dev <devname> set freq <freq> [NOHT|HT20|HT40+|HT40-|5MHz|10MHz|80MHz|160MHz]
+	dev <devname> set freq <control freq> [5|10|20|40|80|80+80|160] [<center1_freq> [<center2_freq>]]
+	phy <phyname> set channel <channel> [NOHT|HT20|HT40+|HT40-|5MHz|10MHz|80MHz|160MHz]
+	dev <devname> set channel <channel> [NOHT|HT20|HT40+|HT40-|5MHz|10MHz|80MHz|160MHz]
+	phy <phyname> set frag <fragmentation threshold|off>
+	phy <phyname> set rts <rts threshold|off>
+	phy <phyname> set retry [short <limit>] [long <limit>]
+	phy <phyname> set netns { <pid> | name <nsname> }
+	phy <phyname> set coverage <coverage class>
+	phy <phyname> set distance <auto|distance>
+	phy <phyname> set txpower <auto|fixed|limit> [<tx power in mBm>]
+	dev <devname> set txpower <auto|fixed|limit> [<tx power in mBm>]
+	phy <phyname> set antenna <bitmap> | all | <tx bitmap> <rx bitmap>
+	phy <phyname> set txq limit <packets> | memory_limit <bytes> | quantum <bytes>
+	dev <devname> set power_save <on|off>
+	phy <phyname> set sar_specs <sar type> <range index:sar power>*
+	dev <devname> survey dump [--radio]
+	dev <devname> vendor send <oui> <subcmd> <filename|-|hex data>
+	dev <devname> vendor recv <oui> <subcmd> <filename|-|hex data>
+	dev <devname> vendor recvbin <oui> <subcmd> <filename|-|hex data>
+	phy <phyname> wowlan enable [any] [disconnect] [magic-packet] [gtk-rekey-failure] [eap-identity-request] [4way-handshake] [rfkill-release] [net-detect [interval <in_msecs> | scan_plans [<interval_secs:iterations>*] <interval_secs>] [delay <in_secs>] [freqs <freq>+] [matches [ssid <ssid>]+]] [active [ssid <ssid>]+|passive] [randomise[=<addr>/<mask>]] [coloc] [flush]] [tcp <config-file>] [patterns [offset1+]<pattern1> ...]
+	phy <phyname> wowlan disable 
+	phy <phyname> wowlan show 
+	dev <devname> station get <MAC address>
+	dev <devname> station del <MAC address> [subtype <subtype>] [reason-code <code>]
+	dev <devname> station dump [-v]
+	dev <devname> station set <MAC address> txpwr <auto|limit> [<tx power dBm>]
+	dev <devname> station set <MAC address> airtime_weight <weight>
+	dev <devname> station set <MAC address> mesh_power_mode <active|light|deep>
+	dev <devname> station set <MAC address> vlan <ifindex>
+	dev <devname> station set <MAC address> plink_action <open|block>
+
+Commands that use the netdev ('dev') can also be given the
+'wdev' instead to identify the device.
+
+You can omit the 'phy' or 'dev' if the identification is unique,
+e.g. "iw wlan0 info" or "iw phy0 info". (Don't when scripting.)
+
+Do NOT screenscrape this tool, we don't consider its output stable.
+
+[1m[7m%[27m[1m[0m                                                                     ]2;mkso@raknos:~/.config/rofi/custom/rofi-wifi-menu]1;..ofi-wifi-menu]7;file://raknos/home/mkso/.config/rofi/custom/rofi-wifi-menu\[0m[27m[24m[J[01;32m➜  [36mrofi-wifi-menu[00m [01;34mgit:([31mmaster[34m)[00m [K[?1h=[?2004hn[1m[31mn[0m[39m[1m[31mn[0m[39m[90mm-applet --indicator[39m[20D[1m[31mn[1m[31me[0m[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [19D[90mofetch[39m[1m[31mn[1m[31me[1m[31mt[0m[39m[39m [39m [39m [39m [39m [1m[31mt[1m[31mw[0m[39m[1m[31mw[1m[31mo[0m[39m[1m[31mo[1m[31mr[0m[39m[1m[31mr[1m[31mk[0m[39m[1m[31mk[1m[31m-[0m[39m[1m[31m-[1m[31mm[0m[39m[1m[31mm[1m[31ma[0m[39m[1m[31ma[1m[31mn[0m[39m[1m[31mn[1m[31ma[0m[39m[1m[31ma[1m[31mg[0m[39m[1m[31mg[1m[31me[0m[39m[1m[31me[1m[31mr[0m[39m[1m[31mr[1m[31m-[0m[39m[1m[31m-[1m[31md[0m[39m[1m[31md[1m[31mm[0m[39m[1m[31mm[1m[31me[0m[39m[1m[31me[1m[31mn[0m[39m[1m[31mn[1m[31mu[0m[39m[?1l>[?2004l
+]2;network-manager-dmenu]1;network-manager-dmenuzsh: network-manager-dmenu: c
