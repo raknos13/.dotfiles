@@ -1,0 +1,18 @@
+[/]
+calculator=['<Super>c']
+control-center=['<Super>comma']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/']
+email=['<Super>e']
+home=['<Super>f']
+screensaver=['<Shift><Super>x']
+www=['<Super>w']
+
+[custom-keybindings/custom0]
+binding='<Super>t'
+command='gnome-terminal'
+name='gnome-terminal'
+
+[custom-keybindings/custom2]
+binding=''
+command='nautilus'
+name='nautilus'
