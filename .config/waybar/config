@@ -1,17 +1,41 @@
 {
-    "height": 25,
+    "height": 23,
     "layer": "bottom",
+    "positon": "bottom",
+    "spacing": 2, // Spacing between modules 4px
 
     "modules-left": ["sway/workspaces", 
-                    "custom/scratchpad-indicator", "sway/mode"],
-    "modules-center": ["sway/window"],
-    "modules-right": ["idle_inhibitor", "pulseaudio",
-                      "network", "backlight",
-                      "battery", "clock", "tray"],
+                    "custom/scratchpad-indicator", 
+                    "sway/mode",
+                    "sway/window"],
 
+    // "modules-center": ["sway/window"],
+
+    "modules-right": ["tray", "idle_inhibitor", "pulseaudio", "pulseaudio#mic",
+                      "bluetooth",
+                      "network", "backlight",
+                      "battery", "clock"],
+
+    // Modules configuration
+    "sway/workspaces": {
+        "disable-scroll": false,
+        "all-outputs": true,
+        "warp-on-scroll": true,
+        // "format": "{name}: {icon}",
+        // "format-icons": {
+        //     "1": "",
+        //     "2": "",
+        //     "3": "",
+        //     "4": "",
+        //     "5": "",
+        //     "urgent": "",
+        //     "focused": "",
+        //     "default": ""
+        // }
+    },
     "sway/window": {
-      "format": "{title}",
-      "max-length": 1000,
+      "format": "{title}  ",
+      "max-length": 250,
       /* "icon": true, */
       "icon-size": 20,
       "on-click-middle": "swaymsg kill", 
@@ -49,7 +73,7 @@
     "backlight": {
         // "device": "acpi_video1",
         "format": "[{percent}% {icon} ]",
-        "format-icons": ["", "", "", "", "", "", "", "", ""]
+        "format-icons": ["", "", "", "", "", "", "", ""]
     },
     "battery": {
         "states": {
@@ -69,41 +93,70 @@
         "tooltip-format": "[Connected 󰤨 ]",
         "format-linked": "[Connected 󰤨 ]",
         "format-disconnected": "[Disconnected 󰤭 ]",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        // "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        "on-click-right": "exec alacritty -e nmtui" 
     },
     "pulseaudio": {
-        "format": "[{volume}% {icon} {format_source}]",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": "{icon} {format_source}",
-        "format-source": " {volume}% ",
-        "format-source-muted": "",
-        "scroll-step": 5,
-        "max-volume": 200,
+        "format": "[{icon} {volume}%]", 
+        "format-muted": "[🔇 0%]",
+        "format-source": "{volume}%",
+        "format-bluetooth": "[{icon} {volume}% ]",
+        "format-bluetooth-muted": "[{icon} ]",
         "format-icons": {
             "headphone": "",
-            "hands-free": "",
-            "headset": "",
+            // "hands-free": "",
+            // "headset": "",
             "phone": "",
             "portable": "",
             "car": " ",
             "default": ["", "", ""]
         },
-        "on-click": "pavucontrol",
-        "on-click-right": "pactl set-source-mute @DEFAULT_SOURCE@ toggle"
+        "scroll-step": 5,
+        "max-volume": 100,
+        "on-click": "amixer sset 'Master' toggle",
+        "on-scroll-up": "amixer sset 'Master' 2%+",
+        "on-scroll-down": "amixer sset 'Master' 2%-",
+        "on-click-right": "/usr/bin/pavucontrol",
+
+        // "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -1%",
+        // "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        // "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +1%"
+    },
+     "pulseaudio#mic": {
+      "format": "[{format_source}]",
+      "format-source": "mic ON",
+      "format-source-muted": "mic OFF",
+      "on-click": "amixer sset 'Capture' toggle",
+      "on-scroll-up": "amixer sset 'Capture' 2%+",
+      "on-scroll-down": "amixer sset 'Capture' 2%-", 
+    },
+     "bluetooth": {
+        "interval": 30,
+        "format": "[{icon}]",
+        // "format-alt": "{status}",
+        "format-icons": {
+            "enabled": "",
+            "disabled": "ss"
+        },
+        "on-click-right": "blueman-manager"
+    },
+    "tray": {
+    "icon-size": 21,
+    "spacing": 10
     },
     "custom/scratchpad-indicator": {
         "interval": 3,
         "return-type": "json",
         "exec": "swaymsg -t get_tree | jq --unbuffered --compact-output '( select(.name == \"root\") | .nodes[] | select(.name == \"__i3\") | .nodes[] | select(.name == \"__i3_scratch\") | .focus) as $scratch_ids | [..  | (.nodes? + .floating_nodes?) // empty | .[] | select(.id |IN($scratch_ids[]))] as $scratch_nodes | { text: \"\\($scratch_nodes | length)\", tooltip: $scratch_nodes | map(\"\\(.app_id // .window_properties.class) (\\(.id)): \\(.name)\") | join(\"\\n\") }'",
-        "format": "{}   ",
+        "format": "[{} ] ",
         "on-click": "exec swaymsg 'scratchpad show'",
         "on-click-right": "exec swaymsg 'move scratchpad'"
     },
     "idle_inhibitor": {
     "format": "{icon}",
     "format-icons": {
-      "activated": " ",
-      "deactivated": " "
+      "activated": "  ",
+      "deactivated": "  "
     }
   },
 }

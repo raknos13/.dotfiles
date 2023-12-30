@@ -1,12 +1,29 @@
-:set nu
+set number                      " Show line numbers
+set relativenumber
 :syntax on
-set tabstop=4
-set expandtab
-set softtabstop=4
+" set cursorline
+" set cursorcolumn
+set backspace=indent,eol,start  " Makes backspace key more powerful.
+set showcmd                     " Show me what I'm typing
+set noshowmode                  " We show the mode with airline or lightline
+set ignorecase
+
+" Apply the indentation of the current line to the next line.
 set autoindent
-set cursorline
-"set cursorcolumn
-DoMatchParen
+set smartindent
+set complete-=i
+set showmatch
+set smarttab
+
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+colorscheme gruvbox
+set background=dark    " Setting dark mode
+let g:gruvbox_contrast_dark = 'soft'
+
+:let g:colorizer_auto_filetype='css,html'
 
 " vim-plug automatic installation script
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
@@ -16,32 +33,17 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
 endif
 
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
-" The default plugin directory will be as follows:
-"   - Vim (Linux/macOS): '~/.vim/plugged'
-"   - Vim (Windows): '~/vimfiles/plugged'
-"   - Neovim (Linux/macOS/Windows): stdpath('data') . '/plugged'
-" You can specify a custom plugin directory by passing it as the argument
-"   - e.g. `call plug#begin('~/.vim/plugged')`
-"   - Avoid using standard Vim directory names like 'plugin'
-
 " Make sure you use single quotes
-
 Plug 'https://github.com/preservim/nerdtree.git', { 'on': 'NERDTreeToggle' }
-
 Plug 'https://github.com/tpope/vim-commentary.git'
-
 Plug 'https://github.com/vim-airline/vim-airline.git'
-
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-
 Plug 'https://github.com/tpope/vim-surround.git'
-
 Plug 'https://github.com/chrisbra/Colorizer.git'
-
 Plug 'https://github.com/ycm-core/YouCompleteMe.git'
-
 Plug 'https://github.com/jiangmiao/auto-pairs.git'
-
+Plug 'https://github.com/morhetz/gruvbox.git'
+Plug 'https://github.com/ervandew/supertab.git'
 " Initialize plugin system
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
 call plug#end()

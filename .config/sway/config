@@ -8,17 +8,25 @@ set $term  alacritty
 set $menu --no-startup-id ~/.config/rofi/launchers/type-1/launcher.sh 
 
 # setting the wallpaper
-output * bg $HOME/.config/wallpapers/9.jpg fill
+output * bg $HOME/.config/wallpapers/2.jpg fill
+
+font pango:"Fira Code" Regular 12
 
 # common bindings
 bindsym $mod+Return exec $term
 bindsym $mod+d exec $menu
 bindsym $mod+Shift+q kill
 bindsym $mod+Shift+r reload
-bindsym $mod+Shift+e exec swaynag -t warning -m 'Exit Sway?' -B 'Yes, exit sway' 'swaymsg exit' --font="JetBrains Mono"
+bindsym $mod+Shift+e exec swaynag -t warning -m 'Exit Sway?' -B 'Yes, exit sway' 'swaymsg exit' --font="Fira Code"
 
 floating_modifier $mod normal
 
+# startup executions
+# exec pipewire
+# exec pipewire-pulse
+# exec wireplumber
+exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+exec gammastep-indicator
 
 # more bindings
 bindsym $mod+$left        focus left
@@ -94,27 +102,32 @@ bar {
     # swaybar_command nwg-panel
 }
 
+# Screenshot
+bindsym Print exec grim -g "$(slurp -d)" - | wl-copy --type image/png
+
 # Scratchpad 
 # Sway has a "scratchpad", which is a bag of holding for windows.
 # You can send windows there and get them back later.
 
 # Move the currently focused window to the scratchpad
 bindsym $mod+Ctrl+Shift+minus move scratchpad
-
 # Show the next scratchpad window or hide the focused scratchpad window.
 # If there are multiple scratchpad windows, this command cycles through them.
 bindsym $mod+Ctrl+minus scratchpad show
+bindsym $mod+Shift+z mark z; move scratchpad
+bindsym $mod+Shift+x mark x; move scratchpad
+bindsym $mod+Shift+c mark c; move scratchpad
+bindsym $mod+z [con_mark="z"] scratchpad show
+bindsym $mod+x [con_mark="x"] scratchpad show
+bindsym $mod+c [con_mark="c"] scratchpad show
 
-# startup executions
-exec pipewire
-exec pipewire-pulse
-exec wireplumber
-exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 
-default_border pixel 2
-default_floating_border pixel 2
+
+default_border pixel 3
+default_floating_border pixel 3
 
 # border colors
+# class                │border │  bg   │ text  │indicator│child_border
 client.focused          #d5c4a1 #d5c4a1 #c5c8c6 #d5c4a1   #d5c4a1
 client.focused_inactive #c5c8c6 #c5c8c6 #c5c8c6 #c5c8c6   #c5c8c6
 client.unfocused        #1d1f21 #c5c8c6 #1d1f21 #1d1f21   #1d1f21
@@ -123,15 +136,16 @@ client.placeholder      #b5bd68 #b5bd68 #b5bd68 #b5bd68   #b5bd68
 client.background       #ffffff
 
 # window gaps
- # gaps inner 2
- # gaps outer 4
+ smart_gaps on
+ gaps inner 0
+ gaps outer 0
 
 # swayfx config
 blur enable
 blur_xray enable
 blur_passes 2
 blur_radius 4
-corner_radius 2
+corner_radius 5
 default_dim_inactive 0.1
 shadows enable
 
@@ -158,20 +172,28 @@ bindgesture swipe:right workspace prev
 bindgesture swipe:left workspace next
 
 # pop-up windows
+exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
+exec hash dbus-update-activation-environment 2>/dev/null && \
+     dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
+for_window [app_id="flameshot"] border pixel 0, floating enable, fullscreen disable, move absolute position 0 0
+
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="About"] floating enable
+for_window [app_id="^firefox$" title="^Extension: \(Bitwarden - Free Password Manager\) - Bitwarden — Mozilla Firefox$"] move scratchpad, resize set width 435 px height 600 px, scratchpad show
+for_window [app_id="org.gnome.Calculator"] floating enable
 
 # Fn keys
 bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
 bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
 
-bindsym --locked XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5% 
-bindsym --locked XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5% 
-bindsym --locked XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle 
+bindsym --locked XF86AudioLowerVolume exec amixer sset 'Master' 2%- 
+bindsym --locked XF86AudioRaiseVolume exec amixer sset 'Master' 2%+ 
+bindsym --locked XF86AudioMute exec amixer sset 'Master' toggle 
 bindsym --locked XF86AudioPlay exec playerctl play-pause
 bindsym --locked XF86AudioNext exec playerctl next
 bindsym --locked XF86AudioPrev exec playerctl previous
 bindsym XF86Search exec $menu
 
-bindsym $mod+Shift+x exec $HOME/.config/swaylock/lock.sh 50
+# Swaylock lockscreen
+bindsym $mod+Ctrl+z exec $HOME/.config/swaylock/lock.sh 50
 exec_always bash $HOME/.config/swaylock/idle.sh
