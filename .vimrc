@@ -7,7 +7,7 @@ set backspace=indent,eol,start  " Makes backspace key more powerful.
 set showcmd                     " Show me what I'm typing
 set noshowmode                  " We show the mode with airline or lightline
 set ignorecase
-
+set mouse=a
 " Apply the indentation of the current line to the next line.
 set autoindent
 set smartindent
